@@ -1,0 +1,160 @@
+S = ('spam')
+
+print(S)
+
+S[0], S[1], S[2], S[3]
+
+S[-1]
+
+S[len(S)-1]
+
+S[1:3]
+
+S[:-1]
+
+S[:]
+
+S[:2], S[2:], S[:-2]
+
+T = 'Supercalifragilisticexpialidocous'
+T[:2], T[2:], T[:-2], T[-2:]
+
+S * 8
+
+S + 'xyz'
+
+S = 'z' + S[1:]
+
+S
+
+S = 'spam'
+
+S
+
+S.find('pa')
+
+S.find('spa')
+
+S.replace('pa', 'xyz')
+
+S
+
+line = 'aaa,bbb,ccc,ddd'
+
+line
+
+line.split(',')
+
+S.upper()
+
+line.upper()
+
+S.isalnum()
+
+line.isalnum()
+
+line2 = 'aaa,ddd,ccc,ddd\n'
+
+line2
+
+line2.split(',')
+
+line3 = 'aaa,bbb,ccc,ddd \t \n'
+
+line3.rstrip()
+
+a = "Bird"
+b = 'Word'
+
+"Have you heard? %s is the %s."% (a, b)
+
+'if we only want one: %s' %a
+
+"if we only want one: %r" %a
+
+"Let's add 2 + 2. it is", 2 + 2, "."
+
+print("Let's add 2 + 2. it is", 2 + 2, '.')
+
+"It works better if we write %s." % (2  +2)
+
+"Have you heard? %s is the %s." %(a,b)
+
+"have you heard? {} is the {}.".format(a,b)
+
+s = "Have you heard {} is the {}."
+s.format(a,b)
+
+"Have you heard {1} is the {0}.".format(a,b)
+
+"Have you heard? {0} is the {1}.".format(a.upper(),b.upper())
+
+"Have you heard? {animal} is the {thing}.".format(animal=a, thing=b)
+
+"Have you heard? {animal} is the {thing}.".format(thing=b, animal=a)
+
+f"Have you heard? {a} is the {b}."
+
+2/4 + 0.1
+
+(1 + 1) * (2 + 2)
+
+a = 123 + 222
+b = 1.5 + 4
+c = 2 ** 100
+d = 1.0
+e = 4
+
+print("a = {}\nb = {}\nc = {}".format(a,b,c))
+
+print("1.0/ 4 = %d" %(d/e))
+
+print("1.0 / 4 = %f" %(d/e))
+
+print("1.0 / 4 = %r" %(d/e))
+
+print("1.0 / 4 = %s" %(d/e))
+
+import math
+
+math.floor(4.22)
+
+math.ceil(4.22)
+
+math.factorial
+(5)
+
+math.pi
+
+math.sqrt(85)
+
+pi = math.pi
+f = math.sqrt(85)
+print(f"pi = {f}\nsqrt(85) = {pi}.")
+
+import random 
+
+random.seed(42)
+
+random.random()
+
+random.choice([1, 2, 3, 4])
+
+random.choice(range(10))
+
+g = random.random()
+h = random.choice([1, 2, 3, 4])
+i = random.choice(range(10))
+print(f"random from 0-1: {g}\nrandom from 1,2,3,4: {h}\nrandom from 1-10: {i}")
+
+magic_8_ball = [
+    "It is certain she will be with you",
+    "She is not yours",
+    "Youre gonna get a job",
+    "Youre doing beautifully",
+    "She's the one just work hard and dont fuck this up"]
+
+random.choice(magic_8_ball)
+
+%whos
+
